@@ -83,194 +83,69 @@ Step 7: Sign In to Azure Portal
 
 Azure provides 200+ cloud services. In this experiment, we focus on the following key categories:
 
-### 1.**Compute Services**
-   
-### a. Azure Virtual Machines (VMs):
-Azure Virtual Machines provide scalable, on-demand cloud computing resources. They allow users to run Windows or Linux workloads in the cloud without buying physical hardware.
+## 1. Azure Virtual Machines (VMs)
 
-#### Features:
+# Explanation:
 
-o	Wide choice of VM sizes and operating systems.
+Azure Virtual Machines provide Infrastructure as a Service (IaaS).
 
-o	Supports hybrid cloud with on-premises integration.
+They allow users to create and manage virtual computers in the cloud that run Windows or Linux.
 
-o	Customizable CPU, memory, and storage options.
+VMs can be used for hosting applications, software testing, development, or disaster recovery.
 
-#### Advantages:
+Advantages:
 
-o	Pay-as-you-go pricing lowers costs.
+Flexible – Can run any operating system and software.
 
-o	Highly scalable, suitable for testing and enterprise workloads.
+Scalable – Increase or decrease computing power as per demand.
 
-o	Integrated monitoring, backup, and security.
+Cost-effective – Pay only for the time the VM is running.
 
-### b. **Azure App Services**:
+Supports backup and disaster recovery without extra hardware.
 
-App Services is a fully managed platform for building and hosting web apps, REST APIs, and mobile apps.
+## 2. Azure Blob Storage
 
-#### Features:
+# Explanation:
 
-•	Multi-language support (C#, Java, Python, Node.js, PHP).
+Blob stands for Binary Large Object.
 
-•	Built-in DevOps support with GitHub and Azure DevOps.
+It is used to store unstructured data such as images, videos, logs, backups, and documents.
 
-•	Auto-scaling and high availability.
+Supports three types of blobs: Block Blobs, Append Blobs, and Page Blobs.
 
-#### Advantages:
+Provides multiple access tiers – Hot (frequent use), Cool (infrequent use), Archive (rare use).
 
-•	Reduces infrastructure management.
+# Advantages:
 
-•	Faster time to market for developers.
+Highly scalable and reliable storage.
 
-•	Integrated security and compliance.
+Cost-efficient with pay-as-you-go pricing.
 
+Data is secure with encryption and redundancy.
 
-### c. **Azure Functions**:
+Suitable for media streaming, backup, and archiving.
 
-Functions is a serverless compute service that executes event-driven code.
+### 3. Azure SQL Database
 
-#### Features:
+# Explanation:
 
-•	Trigger-based execution (HTTP, Blob, Queue, Event Hub).
+Azure SQL Database is a Platform as a Service (PaaS).
 
-•	Auto-scaling to meet demand.
+It is a fully managed relational database based on Microsoft SQL Server.
 
-•	Integrates with multiple Azure services.
+Features include automatic backups, patching, scaling, and high availability.
 
-#### Advantages:
+Ideal for applications that need secure and consistent data storage.
 
-•	Cost-efficient (pay only for execution time).
+# Advantages:
 
-•	Ideal for real-time data and IoT workflows.
+No need for hardware or database server maintenance.
 
-•	Simplifies automation tasks.
+High security with encryption and authentication.
 
-### 2. **IoT Services**
-   
-*a. Azure IoT Hub:* 
+Auto-scaling to handle variable workloads.
 
-IoT Hub enables secure communication between IoT devices and cloud applications.
-
-#### Features:
-
-•	Bi-directional communication (device-to-cloud and cloud-to-device).
-
-•	Device identity and authentication management.
-
-•	Large-scale telemetry ingestion.
-
-#### Advantages:
-
-•	Reliable device connectivity.
-
-•	Secure communication channels.
-
-•	Seamless integration with analytics and AI services.
-
-
-## b. **Azure IoT Central**:
-
-IoT Central is a SaaS platform for rapid IoT solution deployment.
-
-#### Features:
-
-•	Pre-built industry templates (healthcare, retail, manufacturing).
-
-•	Centralized dashboards for device monitoring.
-
-•	Minimal coding required.
-
-#### Advantages:
-
-•	Simplifies IoT app development.
-
-•	Reduces time-to-market.
-
-•	Provides scalability and flexibility.
-
-
-## c. **Azure Digital Twins: Model real-world environments digitally**.
-
-Digital Twins models real-world physical systems digitally for monitoring and simulation.
-
-### Features:
-
-•	Create digital replicas of assets, buildings, or cities.
-
-•	Connect IoT data for real-time visualization.
-
-•	Enables event-driven workflows.
-
-### Advantages:
-
-•	Enhances decision-making.
-
-•	Enables predictive maintenance.
-
-•	Optimizes resource utilization.
-
-
-## 3. **Security Services**
-   
-### a. Azure Blob Storage
-Blob Storage is optimized for storing massive amounts of unstructured data like images, videos, and backups.
-
-#### Features:
-
-•	Hot, Cool, and Archive tiers for cost optimization.
-
-•	Secure data access with Shared Access Signatures.
-
-•	Scales to petabytes of data.
-
-#### Advantages:
-
-•	Cost-effective cloud storage.
-
-•	Highly available and durable.
-
-•	Easy integration with analytics and ML services.
-
-## b. **Azure Disk Storage**
-
-Disk Storage provides persistent, high-performance storage for VMs and applications.
-
-#### Features:
-
-•	Premium SSDs, Standard SSDs, and HDD options.
-
-•	Snapshot and backup support.
-
-•	High IOPS and low latency.
-
-#### Advantages:
-
-•	Reliable data storage for mission-critical apps.
-
-•	Customizable performance tiers.
-
-•	Strong durability and availability.
-
-### c.** Azure Files**
-
-Azure Files delivers fully managed, cloud-based file shares accessible via SMB and NFS protocols.
-
-#### Features:
-
-•	Shared file system accessible across platforms.
-
-•	Supports hybrid use with Azure File Sync.
-
-•	Built-in redundancy and backup.
-
-
-#### Advantages:
-
-•	Simplifies file sharing across teams.
-
-•	Replaces on-prem file servers easily.
-
-•	Secure and scalable collaboration.
+Built-in high availability and disaster recovery.
 
 ## OUTPUT:
 <img width="1918" height="1026" alt="image" src="https://github.com/user-attachments/assets/4e2d9e67-c1d4-4492-87ca-58badc412988" />
