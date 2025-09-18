@@ -3,10 +3,10 @@
 ### NAME: KARTHICK KISHORE T
 ### REG.NO: 212223220042
 
-## ** Aim:**
+## AIM:
 To create a cloud account in Microsoft Azure and to explore its services such as Compute, IoT, and Security.
 
-## **Procedure:**
+## PROCEDURE:
 Step 1: Go to the Azure Website
 
 •	Visit https://azure.microsoft.com
@@ -52,7 +52,7 @@ Step 7: Sign In to Azure Portal
 •	This is the main dashboard where you can explore all Azure services.
 
 
-## **Create a User with Administrative Access (Azure Active Directory)**:
+## Create a User with Administrative Access (Azure Active Directory):
 
 ### **Secure your Azure account root user**
 
@@ -85,7 +85,7 @@ Azure provides 200+ cloud services. In this experiment, we focus on the followin
 
 ### 1.**Compute Services**
    
-a. Azure Virtual Machines (VMs):
+### a. Azure Virtual Machines (VMs):
 Azure Virtual Machines provide scalable, on-demand cloud computing resources. They allow users to run Windows or Linux workloads in the cloud without buying physical hardware.
 
 #### Features:
@@ -272,12 +272,12 @@ Azure Files delivers fully managed, cloud-based file shares accessible via SMB a
 
 •	Secure and scalable collaboration.
 
-## **Output**
+## OUTPUT:
 <img width="1918" height="1026" alt="image" src="https://github.com/user-attachments/assets/4e2d9e67-c1d4-4492-87ca-58badc412988" />
 
 <img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/58ce0d02-2afe-496b-9c00-7635d738b478" />
 
 
-## **Result**:
+## RESULT:
 Thus, a cloud account was successfully created in Microsoft Azure, and various services such as  Compute, IoT, and Storage were explored.
 
