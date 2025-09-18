@@ -83,69 +83,103 @@ Step 7: Sign In to Azure Portal
 
 Azure provides 200+ cloud services. In this experiment, we focus on the following key categories:
 
-## 1. Azure Virtual Machines (VMs)
+### 1. Azure Virtual Machines (VMs)
 
 # Explanation:
 
 Azure Virtual Machines provide Infrastructure as a Service (IaaS).
 
-They allow users to create and manage virtual computers in the cloud that run Windows or Linux.
+They let users create virtual computers in the cloud, running Windows or Linux, without needing physical hardware.
 
-VMs can be used for hosting applications, software testing, development, or disaster recovery.
+Useful for development, testing, hosting applications, or backup servers.
 
-Advantages:
+# Features:
 
-Flexible – Can run any operating system and software.
+Supports multiple OS (Windows, Linux).
 
-Scalable – Increase or decrease computing power as per demand.
+Customizable CPU, memory, and storage.
 
-Cost-effective – Pay only for the time the VM is running.
+Integration with Azure networking and load balancing.
 
-Supports backup and disaster recovery without extra hardware.
+Pay-as-you-go pricing model.
 
-## 2. Azure Blob Storage
-
-# Explanation:
-
-Blob stands for Binary Large Object.
-
-It is used to store unstructured data such as images, videos, logs, backups, and documents.
-
-Supports three types of blobs: Block Blobs, Append Blobs, and Page Blobs.
-
-Provides multiple access tiers – Hot (frequent use), Cool (infrequent use), Archive (rare use).
+Option to create VM images for faster deployment.
 
 # Advantages:
 
-Highly scalable and reliable storage.
+Flexibility → Run any software or OS.
 
-Cost-efficient with pay-as-you-go pricing.
+Scalability → Easily increase/decrease resources.
 
-Data is secure with encryption and redundancy.
+Cost-effective → Pay only for usage.
 
-Suitable for media streaming, backup, and archiving.
+Business continuity → Backup and disaster recovery supported.
+
+### 2. Azure Blob Storage
+
+# Explanation:
+
+Blob = Binary Large Object → Used to store unstructured data like images, videos, logs, and backups.
+
+Provides different storage tiers: Hot, Cool, Archive for cost optimization.
+
+Suitable for media streaming, file sharing, and data archiving.
+
+# Features:
+
+Three blob types: Block Blobs, Append Blobs, Page Blobs.
+
+Supports massive scalability for large data.
+
+Redundancy options (LRS, GRS, ZRS) for data safety.
+
+Access control through Shared Access Signatures (SAS).
+
+Integration with CDN for faster content delivery.
+
+# Advantages:
+
+Scalable → Store unlimited unstructured data.
+
+Secure → Encrypted and redundant storage.
+
+Cost-efficient → Pay only for what you use with multiple tiers.
+
+Global access → Data can be delivered worldwide at high speed.
 
 ### 3. Azure SQL Database
 
 # Explanation:
 
-Azure SQL Database is a Platform as a Service (PaaS).
+A Platform as a Service (PaaS) relational database.
 
-It is a fully managed relational database based on Microsoft SQL Server.
+Based on Microsoft SQL Server but fully managed in the cloud.
 
-Features include automatic backups, patching, scaling, and high availability.
+Handles automatic backups, patching, scaling, and monitoring.
 
-Ideal for applications that need secure and consistent data storage.
+Ideal for apps needing reliable and secure structured data storage.
+
+# Features:
+
+Automatic scaling based on workload.
+
+High availability with built-in failover.
+
+Advanced security (encryption, authentication, threat detection).
+
+AI-powered performance tuning.
+
+Multi-model support (relational + JSON).
 
 # Advantages:
 
-No need for hardware or database server maintenance.
+No maintenance → Microsoft manages updates and backups.
 
-High security with encryption and authentication.
+Secure → Built-in encryption and compliance.
 
-Auto-scaling to handle variable workloads.
+Scalable → Easily adjusts to workload changes.
 
-Built-in high availability and disaster recovery.
+Reliable → High uptime with disaster recovery features.
 
 ## OUTPUT:
 <img width="1918" height="1026" alt="image" src="https://github.com/user-attachments/assets/4e2d9e67-c1d4-4492-87ca-58badc412988" />
